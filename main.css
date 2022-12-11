@@ -51,19 +51,19 @@ h3 {
 .main h3 {
 	color:var(--orange);
 }
-a:link { 
+main a { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: var(--blue-gray);
-	transition: 1.5s ease-in;
+	transition: 1s ease-in;
 	}
-a:visited { 
+main a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: var(--light-tan);
 	;
 	}
-a:hover, a:focus, a:active { 
+main a:hover, a:focus, a:active { 
 	text-decoration: none; 
 	color: var(--head-color);
 	}
@@ -142,8 +142,16 @@ div.main {
 	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
 	}
-	
-
+.summary a{
+	font-weight: bold; 
+	text-decoration: none; 
+	color: var(--blue-gray);
+	transition: 1s ease-in;
+}	
+.summary a:hover{
+	text-decoration: none; 
+	color: var(--head-color);
+}
 footer { 
 	text-align: center; 
 	background-color: var(--blue-gray);
@@ -216,7 +224,7 @@ footer a:link, footer a:visited {
 	color: var(--blue-gray);
 	}
 .sidebar a:hover {
-	color: white;
+	color: var(--light-tan);
 }
 .sidebar li a:visited {
 	color: var(--light-tan);
