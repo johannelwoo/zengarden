@@ -35,7 +35,7 @@ body {
 	background: var(--main-background-color);
 	margin: 0; 
 	padding: 0;
-	color:#3f70ad;
+	color:var(--dark-purple);
 	}
 p { 
 	margin-top: 0; 
@@ -49,7 +49,7 @@ h3 {
 	font-weight: 900;
 	}
 .main h3 {
-	color:#2b2129;
+	color:var(--orange);
 }
 a:link { 
 	font-weight: bold; 
@@ -79,8 +79,8 @@ abbr {
 
 #zen-preamble {
 	padding: 20px;
-	background-color: #dd5865;
-	color:#58ddd0;
+	background: linear-gradient(var(--orange) ,var(--blue-gray));
+	color:var(--dark-purple);
 	}
 	
 .intro header {
@@ -114,8 +114,8 @@ div.main {
 	margin: 20px 20px 20px 10px; 
 	max-width: 200px; 
 	float: left;
-	background-color: #5865dd;
-	color:#ddd058;
+	background-color: var(--dark-purple);
+	color:var(--light-tan);
 	padding: 20px;
 	border-radius:20px;
 	}
@@ -127,14 +127,14 @@ div.main {
 
 footer { 
 	text-align: center; 
-	background-color: #708A81;
+	background-color: var(--blue-gray);
 	padding: 20px;
 	position:absolute;
 	left:0;
 	bottom:0px;
 	margin:0;
 	min-width: 100%;
-	color: #dd8e58;
+	color: var(--light-tan);
 	font-size: 1.5rem;
 	}
 footer a:link, footer a:visited { 
@@ -146,7 +146,7 @@ footer a:link, footer a:visited {
 	position: absolute;
     top:393px;
 	right: 0;
-	background-color: #2b2129;
+	background-color: var(--dark-purple);
 	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
@@ -193,8 +193,9 @@ footer a:link, footer a:visited {
 	list-style-type: none;
 	}
 .sidebar li a:link {
-	color: #988F5E;
+	color: var(--blue-gray);
 	}
+
 .sidebar li a:visited {
 	color: #B3AE94;
 	}
