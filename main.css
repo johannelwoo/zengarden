@@ -87,6 +87,7 @@ abbr {
 	}
 	
 .intro header {
+	font-family: garamond ;
 	padding: 20px;
 	animation: gradient 2s ease infinite;
 	background-image: linear-gradient(135deg, var(--orange), var(--head-color));
