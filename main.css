@@ -152,7 +152,6 @@ div.main {
 .summary a:hover{
 	text-decoration: none; 
 	color: var(--head-color);
-	font-size: larger;
 	
 }
 footer { 
