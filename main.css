@@ -19,7 +19,7 @@
   --main-background-color:#E5D1B8;
   --head-color:#58ddd0;
 }
-*, *::after, *::backdrop{
+*{
 	margin: 0;
 	padding:0;
 	box-sizing: border-box;
@@ -154,27 +154,7 @@ div.main {
 	color: var(--head-color);
 	
 }
-footer { 
-	text-align: center; 
-	background-color: var(--blue-gray);
-	padding: 20px;
-	position:absolute;
-	left:0;
-	bottom:0px;
-	margin:0;
-	min-width: 100%;
-	color: var(--light-tan);
-	font-size: 1.5rem;
-	}
-footer a  { 
-	margin-right: 20px; 
-	color: var(--light-tan);
-	text-decoration: none;
-	transition:1s ease-out;
-	}
-footer a:hover {
-	color: var(--dark-purple);
-}	
+
 
 
 .sidebar {
@@ -240,6 +220,30 @@ footer a:hover {
 .sidebar li a:visited {
 	color: var(--light-tan);
 	}
-.extra1 {
-	visibility: hidden;
+
+footer { 
+	text-align: center; 
+	background-color: var(--blue-gray);
+	padding: 20px;
+	position:relative;
+	margin:0;
+	min-width: 100%;
+	color: var(--light-tan);
+	font-size: 1.5rem;
 	}
+footer a  { 
+	margin-right: 20px; 
+	color: var(--light-tan);
+	text-decoration: none;
+	transition:1s ease-out;
+	}
+footer a:hover {
+	color: var(--dark-purple);
+}	
+	/*--------------beginning of media query----------------------*/
+@media screen and (max-width: 550px) {
+	.main, h3, main, #zen-preamble, .sidebar, .summary, footer, header h1, header h2, .intro header, footer li{
+		display: block;
+	}
+	
+}
