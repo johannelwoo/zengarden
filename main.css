@@ -54,15 +54,18 @@ h3 {
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
+	color: var(--blue-gray);
+	transition: 1.5s ease-in;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #D4CDDC;
+	;
 	}
 a:hover, a:focus, a:active { 
-	text-decoration: underline; 
-	color: var(--brown);
+	text-decoration: none; 
+	color: var(--head-color);
 	}
 abbr {
 	border-bottom: none;
@@ -155,6 +158,7 @@ footer {
 	}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
+	color: var(--light-tan)
 	}
 
 .sidebar {
@@ -208,12 +212,14 @@ footer a:link, footer a:visited {
 	margin-bottom: 5px;
 	list-style-type: none;
 	}
-.sidebar li a:link {
+.sidebar a {
 	color: var(--blue-gray);
 	}
-
+.sidebar a:hover {
+	color: white;
+}
 .sidebar li a:visited {
-	color: #B3AE94;
+	color: var(--light-tan);
 	}
 .extra1 {
 	visibility: hidden;
